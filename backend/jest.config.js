@@ -20,7 +20,7 @@ module.exports = {
   //     statements: 30,
   //   },
   // },
-  testMatch: ['src/**/__tests__/**/*.js', 'src/**/?(*.)+(spec|test).js'],
+  testRegex: '(/__tests__/|\\.(test|spec))\\.js$',
   testPathIgnorePatterns: ['/node_modules/', '/dist/', '/e2e/', '/coverage/'],
   verbose: true,
   maxWorkers: '50%',
